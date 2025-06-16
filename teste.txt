@@ -1,0 +1,4 @@
+teste.
+comando no terminal do VS Code para baixar as bibliotecas do TypeScript
+npm init -y
+
