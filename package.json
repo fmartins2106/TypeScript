@@ -8,8 +8,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "typescript": "^5.8.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmartins2106/TypeScript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fmartins2106/TypeScript/issues"
+  },
+  "homepage": "https://github.com/fmartins2106/TypeScript#readme",
+  "description": ""
 }
