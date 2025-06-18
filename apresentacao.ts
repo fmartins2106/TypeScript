@@ -1,9 +1,9 @@
-const nome : string = "Fernando Martins";
+const aaa : string = "Fernando Martins";
 const codigo : number = 2;
 const estudando : boolean = true;
 const mesCodigo : number = 2;
 let mesDesc : string;
-console.log(`Olá meu nome é ${nome}`);
+console.log(`Olá meu nome é ${aaa}`);
 console.log(`Código de matrícula: ${codigo}`);
 /* if (estudando == true){
     console.log(`Atualmente, estudo no SuperDev? Verdadeiro`)
