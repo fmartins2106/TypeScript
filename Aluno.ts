@@ -22,10 +22,13 @@ export class Aluno {
             console.log("Lançar 4 notas para poder calcular a média");
             return;
         }
-        /* A função reduce() serve para reduzir um array a um único valor, acumulando os valores conforme você define na função. */
-        const soma = this.notas.reduce((acumulador,notas) => acumulador + notas, 0);
-        const media = (soma / this.notas.length);
-
+        let media = 0
+        this.notas.forEach(nota => {
+            media += nota;   
+        });
+        
+        media = media / this.notas.length;
+        
         console.log(`A média final foi:${media.toFixed(2)}`)
 
         if(media >= 8){
