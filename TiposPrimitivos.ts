@@ -53,5 +53,9 @@ function greet(name: string, age?: number){ /* pont de interrogação deixa a va
 greet(myName);
 
 
+/* FInalizando aula tipos primitivos */
+
+
+
 
 
