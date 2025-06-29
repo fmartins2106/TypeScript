@@ -44,3 +44,4 @@ function promoteUser(user: User): Admin {
         },
     }
 }
+
